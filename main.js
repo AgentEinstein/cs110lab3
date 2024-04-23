@@ -1,4 +1,4 @@
-//issues: reset button will reset the board but you have to reload to start a new game, AI not included yet, you can make moves even after the game ends (if you win)
+//issues: reset button will reset the board but you have to reload to start a new game, AI not included yet, you can make moves even after the game ends (it'll be locked to the winning player's turn)
 document.addEventListener("DOMContentLoaded", () => {
     const squares = document.querySelectorAll('.row > div');
     const message = document.querySelector('h2 > .display_player');
